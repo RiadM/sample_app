@@ -183,3 +183,10 @@ input {
 		color: $state-danger-text;
 	}
 }
+
+
+/* Arrange la nav bar quand on resize le site*/
+.navbar-nav li a {
+	float: right;
+	display: inline;
+}
