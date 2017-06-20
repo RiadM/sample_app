@@ -9,6 +9,15 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 gem 'bcrypt',   '3.1.11'
+
+#Permet de créer de faux utlisateurs
+gem 'faker',    '1.7.3'
+
+#Permet de paginer le site
+gem 'will_paginate',  '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
+
+
 gem 'bootstrap-sass', '3.3.6'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
