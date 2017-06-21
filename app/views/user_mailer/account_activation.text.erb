@@ -1,0 +1,5 @@
+Salut, <%= @user.name %>,
+
+Bienvenue dans cette application d'essaie! Appuie sur le lien suivant pour activer ton compte :
+
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>

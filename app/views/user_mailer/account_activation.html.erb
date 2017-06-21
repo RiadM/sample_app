@@ -1,0 +1,8 @@
+<h1>Application d'essaie</h1>
+
+<p>Bienvenue <%= @user.name %>,</p>
+
+<p>Vous pouvez cliquer sur le lien suivant pour activer votre compte: </p>
+
+<%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %>
+  
