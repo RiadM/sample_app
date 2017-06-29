@@ -13,6 +13,11 @@ gem 'bcrypt',   '3.1.11'
 #Permet de créer de faux utlisateurs
 gem 'faker',    '1.7.3'
 
+#Pour les images
+gem 'carrierwave',    '1.1.0'
+gem 'mini_magick',    '4.7.0'
+gem 'fog',            '1.40.0'
+
 #Permet de paginer le site
 gem 'will_paginate',  '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
